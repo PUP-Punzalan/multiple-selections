@@ -28,7 +28,6 @@ if number1 == num1 + num2:
     score = score + 1
 else:
     score = score + 0
-# OverallScore = OverallScore - score
 
 number2 = float(input(f"2. {num3} + {num4} = "))
 if number2 == num3 + num4:
