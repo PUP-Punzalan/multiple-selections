@@ -25,62 +25,87 @@ score = 0
 
 number1 = float(input(f"1. {num1} + {num2} = "))
 if number1 == num1 + num2:
+    print("Correct.")
     score = score + 1
 else:
+    print("Incorrect.")
     score = score + 0
 
 number2 = float(input(f"2. {num3} + {num4} = "))
 if number2 == num3 + num4:
+    print("Correct.")
     score = score + 1
 else:
+    print("Incorrect.")
     score = score + 0
 
 number3 = float(input(f"3. {num5} + {num6} = "))
 if number3 == num5 + num6:
+    print("Correct.")
     score = score + 1
 else:
+    print("Incorrect.")
     score = score + 0
 
 number4 = float(input(f"4. {num7} + {num8} = "))
 if number4 == num7 + num8:
+    print("Correct.")
     score = score + 1
 else:
+    print("Incorrect.")
     score = score + 0
 
 number5 = float(input(f"5. {num9} + {num10} = "))
 if number5 == num9 + num10:
+    print("Correct.")
     score = score + 1
 else:
+    print("Incorrect.")
     score = score + 0
 
 number6 = float(input(f"6. {num11} + {num12} = "))
 if number6 == num11 + num12:
+    print("Correct.")
     score = score + 1
 else:
+    print("Incorrect.")
     score = score + 0
 
 number7 = float(input(f"7. {num13} + {num14} = "))
 if number7 == num13 + num14:
+    print("Correct.")
     score = score + 1
 else:
+    print("Incorrect.")
     score = score + 0
 
 number8 = float(input(f"8. {num15} + {num16} = "))
 if number8 == num15 + num16:
+    print("Correct.")
     score = score + 1
 else:
+    print("Incorrect.")
     score = score + 0
 
 number9 = float(input(f"9. {num17} + {num18} = "))
 if number9 == num17 + num18:
+    print("Correct.")
     score = score + 1
 else:
+    print("Incorrect.")
     score = score + 0
 
 number10 = float(input(f"10. {num19} + {num20} = "))
 if number10 == num19 + num20:
+    print("Correct.")
     score = score + 1
 else:
+    print("Incorrect.")
     score = score + 0
 
 print(f"Your score is {score}/10.")
+
+if score > 5:
+    print("Good job, you passed the exam.")
+else:
+    print("Sadly, you failed. Please try again.")
